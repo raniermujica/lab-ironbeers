@@ -5,3 +5,35 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+.nav-bar {
+    display: flex;
+    background-color: #2081c3;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-bar a {
+    margin-left: 40px;
+    color: #f7f9f9;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#home-view {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+
+#home-view a {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 1px;
+    text-decoration: none;
+}
